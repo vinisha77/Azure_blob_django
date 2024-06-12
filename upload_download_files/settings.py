@@ -135,3 +135,7 @@ AZURE_ACCOUNT_NAME = '<vaishalistorage>'
 AZURE_ACCOUNT_KEY = '<placeholder_value>'
 AZURE_CONTAINER_NAME = '<vaishalicontainer>'
 #placeholder_value  enrTLtfa4PkRZcFzJTq5Wu/qyN3nThJ7Wk3RWEsxk77wF4O+WifHZllRkrEBf6UyzeOB7j70wdsV+ASt7zqk6w==
+
+# Use environment variables for sensitive data
+#AZURE_STORAGE_ACCOUNT_KEY = os.environ.get('AZURE_STORAGE_ACCOUNT_KEY', 'placeholder_value')
+#SECRET_KEY = os.environ.get('SECRET_KEY', 'placeholder_value')
