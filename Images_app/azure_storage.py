@@ -2,7 +2,7 @@ import re
 from azure.storage.blob import BlobServiceClient
 
 
-CONNECTION_STRING = 'DefaultEndpointsProtocol=https;AccountName=vaishalistorage;AccountKey=enrTLtfa4PkRZcFzJTq5Wu/qyN3nThJ7Wk3RWEsxk77wF4O+WifHZllRkrEBf6UyzeOB7j70wdsV+ASt7zqk6w==;EndpointSuffix=core.windows.net'
+CONNECTION_STRING = 'DefaultEndpointsProtocol=https;AccountName=vaishalistorage;AccountKey=placeholder_value;EndpointSuffix=core.windows.net'
 STORAGE_ACCOUNT_NAME = 'vaishalistorage'
 CONTAINER_NAME = 'vaishalicontainer'
 
@@ -31,5 +31,5 @@ def list_files_in_azure_container():
     return [blob.name for blob in blob_list]
 
 
-
+#placeholder_value  enrTLtfa4PkRZcFzJTq5Wu/qyN3nThJ7Wk3RWEsxk77wF4O+WifHZllRkrEBf6UyzeOB7j70wdsV+ASt7zqk6w==
 

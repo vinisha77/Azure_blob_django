@@ -132,5 +132,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Azure Blob Storage settings
 AZURE_ACCOUNT_NAME = '<vaishalistorage>'
-AZURE_ACCOUNT_KEY = '<enrTLtfa4PkRZcFzJTq5Wu/qyN3nThJ7Wk3RWEsxk77wF4O+WifHZllRkrEBf6UyzeOB7j70wdsV+ASt7zqk6w==>'
+AZURE_ACCOUNT_KEY = '<placeholder_value>'
 AZURE_CONTAINER_NAME = '<vaishalicontainer>'
+#placeholder_value  enrTLtfa4PkRZcFzJTq5Wu/qyN3nThJ7Wk3RWEsxk77wF4O+WifHZllRkrEBf6UyzeOB7j70wdsV+ASt7zqk6w==
